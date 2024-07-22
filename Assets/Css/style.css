@@ -19,13 +19,48 @@ body{
     height: 64px;
     width: 64px;
 }
+
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-right form{
+    display: flex;
+    align-items: center;
+}
 .header-right #inputSearch{
     font-size: 16px;
     outline: 0;
     padding: 7px 10px;
     border: 1px solid #999999;
     background-color: transparent;
+    width: 100%;
+    max-width: 220px;
+    height: 36.4px;
 }
+
+.header-right button{
+    border:0;
+    background: transparent;
+    margin-left: -30px ;
+    cursor: pointer;
+}
+.header-right button img{
+    width: 16px;
+    height: 16px;
+}
+
+.header-right-menu{
+    margin-left: 50px;
+    width: 24px;
+    height: 24px;
+}
+.header-right-menu img{
+    width: 24px;
+    height: 24px;
+}
+
 /* 
 .oswald {
     font-family: "Oswald", sans-serif;
