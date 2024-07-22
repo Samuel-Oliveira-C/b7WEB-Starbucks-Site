@@ -1,12 +1,31 @@
 body{
     margin: 0px;
+    font-family: 'Open Sans',sans-serif;
 }
+
 .green-line{
     height: 10px;
     background-color: #117050;
 }
-
-
+.container-logo-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 100px;
+    max-width: 1140px;
+}
+.header-logo-left img{
+    height: 64px;
+    width: 64px;
+}
+.header-right #inputSearch{
+    font-size: 16px;
+    outline: 0;
+    padding: 7px 10px;
+    border: 1px solid #999999;
+    background-color: transparent;
+}
 /* 
 .oswald {
     font-family: "Oswald", sans-serif;
