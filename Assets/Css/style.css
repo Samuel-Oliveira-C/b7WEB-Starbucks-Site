@@ -60,7 +60,51 @@ body{
     width: 24px;
     height: 24px;
 }
-
+.banner-container{
+    background-image: url("../Img/bg.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.posicao{
+    margin-left: 160px;
+}
+.texto-title-banner{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    font-size: 6rem;
+}
+.texto-body-banner{
+    word-wrap: break-word;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.imgs-coffe1{
+    width: 130px;
+    height: 130px;
+    margin-left: 5px;
+    border: 7px solid #117050;
+    border-radius: 50%;
+}
+.imgs-coffe2{
+    width: 130px;
+    height: 130px;
+    margin-left: 30px;
+    border: 7px solid #117050;
+    border-radius: 50%;
+}
+.imgs-coffe3{
+    width: 130px;
+    height: 130px;
+    margin-left: 30px;
+    border: 7px solid #117050;
+    border-radius: 50%;
+}
 /* 
 .oswald {
     font-family: "Oswald", sans-serif;
