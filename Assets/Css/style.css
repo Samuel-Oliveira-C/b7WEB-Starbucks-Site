@@ -111,6 +111,66 @@ body{
     grid-row: repeat(2,1fr);
     width: 100vw;
     height: 70vh;
+}.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centralizar{
+    align-self:center;
+    margin-left: 10%;
+    padding-left: 20px;
+    
+}
+.green-Bar{
+    margin-top: 10%;
+    grid-row: 1;
+    background-color: #006341;
+    width: 139px;
+    height: 22px;
+}
+.content-text{
+    margin-top: -5%;
+    grid-row: 1;
+    word-wrap: break-word;
+    line-height: 1.6;
+    
+}
+.content-text h1{
+    color: #111111;
+    font-size: 36px;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.6;
+}
+.content-text blockquote {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-style: italic;
+    color: #111111;
+    word-wrap: break-word;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    margin-left: auto;
+}
+.content-text p{
+    width: 80%;
+    padding-right: 10%;
+}
+.learnMore{
+    margin-top: 40px;
+    width: 155.59px;
+    height: 45.6px;
+    border-radius: 3px;
+    border-color: #454545;
+    color: #454545;
+    background-color: white;
+    font-size: 1rem;
+    letter-spacing: 1px
+}
+.learnMore:hover{
+    background-color:#454545 ;
+    color: #eeeeee;
 }
 /* 
 .oswald {
