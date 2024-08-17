@@ -244,6 +244,45 @@ body{
     width: 100%;
     height: 100%;
 }
+.banner-drinks-Ultra-Caramel{
+    display: grid;
+    width: 100%;
+    height: 70%;
+    grid-template-columns: repeat(2,1fr);
+}
+.content-Ultra-Caramel-text{
+    padding-top: 25%;
+    padding-left: 20%;
+
+}
+.area1{
+    background-image: url("../Img/bg2.jpg");
+    background-position:left ;
+    background-size:cover ;
+}
+.content-Ultra-Caramel-text h1{
+    color: #111111;
+    font-size: 36px;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.3;
+}
+.content-Ultra-Caramel-text p{
+    padding: auto;
+    word-wrap: break-word;
+    line-height: 1.6;
+    width: 70%;
+}
+.content-Ultra-Caramel-text button{
+    background-color: transparent;
+}
+.content-Ultra-Caramel-img{
+    width: 100%;
+}
+.content-Ultra-Caramel-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 /* 
 .oswald {
     font-family: "Oswald", sans-serif;
