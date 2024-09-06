@@ -283,6 +283,51 @@ body{
     width: 100%;
     height: 100%;
 }
+.areaKind{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    height: 100%;
+
+}
+.espacamento{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e8e9ee;  /*TODO  a cor vai ter que ser alterada*/
+    grid-column-start: 1;
+    padding-left: 10%;
+
+}
+.areaKind-text{
+    word-wrap: break-word;
+    width: 70%;
+    height: 40%;
+}
+.areaKind-img{
+    width: 100%;
+
+    grid-column-start: 2;
+    background-image: url("../Img/bg3.jpg");
+    background-position: right;
+    background-size: cover;
+}
+.areaKind .learnMore{
+    margin-top: 10%;
+}
+.last-area{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    background-color: #e8e9ee;
+}
+.last-area img{
+    object-fit: cover;
+    width: 70%;
+}
+
 /* 
 .oswald {
     font-family: "Oswald", sans-serif;
