@@ -327,7 +327,29 @@ body{
     object-fit: cover;
     width: 70%;
 }
+.rodape{
 
+    background-color: #333333;
+    color: #ffffff;
+}
+.alinhamentoRodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -30px;
+    gap: 90px 50px;
+}
+.referenciaSite{
+    padding-bottom: 5%;
+}
+.rodape a{
+    color:#a8f8dd;
+}
+.rodape p{
+    padding-top: 3%;
+}
 /* 
 .oswald {
     font-family: "Oswald", sans-serif;
