@@ -6,24 +6,27 @@ body{
 .green-line{
     height: 10px;
     background-color: #117050;
+    width: 100%;
 }
 .container-logo-search{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
     height: 100px;
-    max-width: 1140px;
+    max-width: 100%;
+    position: relative;
 }
+
 .header-logo-left img{
+    margin-left: 20px;
     height: 64px;
     width: 64px;
 }
-
 .header-right{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 30px;
 }
 .header-right form{
     display: flex;
@@ -338,7 +341,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: -30px;
+    margin-top: 0px;
     gap: 90px 50px;
 }
 .referenciaSite{
@@ -350,6 +353,15 @@ body{
 .rodape p{
     padding-top: 3%;
 }
+
+
+@media (max-width: 700px) {
+    .banner-drinks {
+        grid-template-columns: 400px repeat(1, 1fr);
+    }
+}
+
+
 /* 
 .oswald {
     font-family: "Oswald", sans-serif;
