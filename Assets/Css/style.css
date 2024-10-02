@@ -223,6 +223,9 @@ body{
     margin-top: 15%;
     margin-left: 25%;
 }
+.responsividade{
+
+}
 .content2-Vanilla{
 
     margin-top: -4%;
@@ -359,8 +362,30 @@ body{
     .banner-drinks {
         grid-template-columns: 400px repeat(1, 1fr);
     }
+    .responsividade{
+        display: flex;
+        flex-direction: column;
+        margin-left: -25%;
+        padding-left: 30%;
+    }
 }
-
+@media (max-width:1062px){
+    .content2-Vanilla h1 {
+        height: auto;
+        width: 260px;
+    }
+    .content2-Vanilla p{
+        width: 260px;
+    }
+}
+@media (max-width:675px){
+    .responsividade{
+        padding-right: 50px;
+    }
+}
+/** 
+    TODO Refatorar a classe content2-Vanilla
+*/
 
 /* 
 .oswald {
