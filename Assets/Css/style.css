@@ -368,6 +368,22 @@ body{
         margin-left: -25%;
         padding-left: 30%;
     }
+    .posicao{
+        margin-left: 10px;
+    }
+    .imgs-coffe1{
+        width: 100px;
+        height: 100px;
+    }
+    .imgs-coffe2{
+        width: 100px;
+        height: 100px;
+    }
+    .imgs-coffe3{
+        width: 100px;
+        height: 100px;
+    }
+
 }
 @media (max-width:1062px){
     .content2-Vanilla h1 {
@@ -381,6 +397,20 @@ body{
 @media (max-width:675px){
     .responsividade{
         padding-right: 50px;
+    }
+    .espacamento .green-Bar{
+        margin-top: 10px;
+    }
+    .areaKind-text{
+        height: 80%;
+    }
+}
+@media (min-width:675px){
+    .espacamento .green-Bar{
+        margin-top: 10%;
+    }
+    .areaKind-text{
+        height: 60%;
     }
 }
 /** 
